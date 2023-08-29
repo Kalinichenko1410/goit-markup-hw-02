@@ -28,11 +28,27 @@ color: #4D5AE5;
 }
 .nav-list {
     color: #2E2F42;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+    
 }
+
+.nav-list:active {
+    display: flex;
+    width: 48px;
+    height: 52px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+    color: #404BBF;
+    text-decoration: none;
+}
+
 .nav-contacts {
     color: #434455;
         font-size: 16px;
@@ -40,6 +56,17 @@ color: #4D5AE5;
         line-height: 24px;
         letter-spacing: 0.32px;
         text-decoration: none;
+    }
+
+.nav-contacts:active{
+    display: flex;
+        width: 153px;
+        height: 24px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        color: #404BBF;
+
 }
 /* Main */
 .main-section {
