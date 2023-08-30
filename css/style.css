@@ -51,8 +51,14 @@ color: #2E2F42;
         line-height: 24px;
         letter-spacing: 0.32px;
         text-decoration: none;
+        font-style: normal;
     }
-
+        .nav-contacts:hover{
+            color: #404bbf;
+        }
+.nav-contacts :focus{
+    color: #404bbf;
+}
 .nav-contacts:active{
     display: flex;
         width: 153px;
@@ -106,6 +112,9 @@ color: #FFF;
                 border-radius: 4px;
                     background: #404BBF;
                     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+         }
+         .order-button:focus{
+            background-color: #404BBF;
          }
 /* Benefits */
 .benefit-name {
